@@ -13,7 +13,8 @@
   <name>petclinic</name>
 
   <properties>
-    
+    <sonar.host.url>http://34.106.250.95:9000/</sonar.host.url>
+    <sonar.login>squ_38cbb6d121c47b706d35dfcd7875678824e8108e</sonar.login>
     <!-- Generic properties -->
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
