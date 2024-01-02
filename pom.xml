@@ -110,7 +110,18 @@
       <optional>true</optional>
     </dependency>
   </dependencies>
-
+<distributionManagement>
+     <repository>
+       <id>nexus</id>
+       <name>Release repos</name>
+       <url>http://34.106.109.24:8081/repository/first-release/</url>
+     </repository>
+     <snapshotRepository>
+       <id>nexus</id>
+       <name>Snapshot repos</name>
+       <url>http://34.106.109.24:8081/repository/first-snapshot/</url>
+      </snapshotRepository>
+   </distributionManagement>
   <build>
     <plugins>
       <plugin>
